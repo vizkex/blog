@@ -1,0 +1,28 @@
+---
+const today = new Date();
+---
+
+<footer>
+	<div id="topf"><h1 style="font-size:40px;font-family:vizkexfont;font-weight: 300;color:#c1c1c1;">vizkex<span style="font-family:vizkexfont;" >*</span></h1>
+        <p style="font-size:15px;padding-left:4px;color: #5d5d5d;font-family:vizkexfont;font-weight: 300;">Designed and programmed by vizkex :P <hr style="padding-bottom: 7px;"></p>
+		<p style="font-size:13px;padding-left:10px;color: #5d5d5d;">&copy; {today.getFullYear()}</p>
+	</div>
+</footer>
+<style>
+	footer {
+		width: 100%;
+	}
+	hr {
+            width:60px;flex:1;outline: none;border: 0px; margin-left: 10px ;border-top: 1px dashed #333333;margin-top: 8px;
+
+        }
+        #topf {
+            padding: 0 20px 0 20px;
+			margin-top:40px;
+            background-color:rgb(8,8,8);
+            border-top: 1px dashed #202020;
+            display: flex;
+            align-items: center;
+			border-radius:30px;
+        }
+</style>

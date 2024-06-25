@@ -1,0 +1,153 @@
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
+ @font-face {
+	font-family: vizkexfont;
+	font-weight: 400;
+	src:url('../styles/font/bodonistdbookitalic-webfont.woff') format('woff2');
+}
+@font-face {
+	font-family: vizkexfont;
+	font-weight: 500;
+	src:url('../styles/font/bodonistdbolditalic-webfont.woff2') format('woff2');
+}
+@font-face {
+	font-family: vizkexfont;
+	font-weight: 600;
+	src:url('../styles/font/bodonistdbolditalic-webfont.woff2') format('woff2');
+}
+ * {
+	margin: 0;
+	padding: 0;
+ }
+ :root {
+	color-scheme: dark;
+ }
+ ::selection{
+	background:#FF7843;
+	color:#FFFFFF;
+}
+*::-webkit-scrollbar-track{
+	background-color:#161616;
+}
+:root::-webkit-scrollbar-thumb{
+	background-color:#222222;
+	border-left: 1px #161616 dashed;
+}
+::-moz-selection {
+	background:#FF7843;
+	color:#FFFFFF;
+}
+html {
+	scrollbar-width:10px;
+	scroll-behavior: smooth;
+	scrollbar-color: #222222;
+}
+html::-webkit-scrollbar {
+	width: 10px;
+	scrollbar-color: #222222;
+}
+ body {
+	font-family: Verdana, sans-serif;
+	margin: auto;
+	padding: 20px;
+	max-width: 65ch;
+	text-align: left;
+	background-color: black;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: #d8d8d8;
+	overflow: auto;
+	
+}
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+
+}
+span {
+	color:#FF7843;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	color: #d1d1d1;
+}
+a {
+	color: #3273dc;
+	font-weight: 600;
+}
+nav a {
+	margin-right: 10px;
+}
+textarea {
+	width: 100%;
+	font-size: 16px;
+}
+input {
+	font-size: 16px;
+}
+content {
+	line-height: 1.6;
+}
+table {
+	width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+code {
+	padding: 2px 5px;
+	background-color: #181818;
+}
+pre {
+	padding: 1rem;
+<<<<<<< HEAD
+	
+=======
+	background-color: #181818;
+	border-radius: 20px;
+>>>>>>> 1d7cbc708c561e2365ba4e07690040f88becb422
+}
+pre > code {
+	all: unset;
+    border-radius:20px;
+}
+blockquote {
+	border: 1px solid #b4b4b4;
+	color: #c7c7c7;
+	padding: 2px 0px 2px 20px;
+	margin: 0px;
+	font-style: italic;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border-radius: 12px;
+    margin:29px 0px;
+	cursor: grab;
+}
+li ,ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+h2 {
+	margin: 0.5em 0;
+}
+mdx > pre {
+	color:red;
+}
